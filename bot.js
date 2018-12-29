@@ -4,7 +4,10 @@ const client2 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
-   console.log(`Credit Farmm - Script By : Kahrbaa `);
+   console.log(`سبحان الله والحمد لله ولااله الا الله
+ سبحان الله والحمد لله ولااله الا الله
+ سبحان الله والحمد لله ولااله الا الله
+ `);
    console.log(`----------------`);
    console.log(`Loadinng`);
    console.log(`Loadinng.`);
@@ -54,11 +57,16 @@ client2.on('message', message => {
 
 
 client.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === '!ninja_elarab') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+      for(let x = 0; x < 70000; x++) {
+        message.channel.send(`*سبحان الله والحمد لله ولااله الا الله
+ سبحان الله والحمد لله ولااله الا الله
+ سبحان الله والحمد لله ولااله الا الله
+ سبحان الله والحمد لله ولااله الا الله
+بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيمبسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم
+ sb7an allah sb7an allah **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -68,11 +76,11 @@ if (message.content === '!spam') {
 });
 
 client2.on('message', message => { // لا تغير شئ عشان ما تخرب الدنيا
-if (message.content === '!spam') {
+if (message.content === '!ninja_elarab') {
       let count = 0;
       let ecount = 0;
-      for(let x = 0; x < 90000; x++) {
-        message.channel.send(`**Credit Spam , Frame , Credit By Kahrba , Farm Credit By Kahrba, ez Farm - كردت اسبام اسبام اسبام اوف ءف اح اح نار ج **[ " ${x} " ]`)
+      for(let x = 0; x < 70000; x++) {
+        message.channel.send(`** - بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم بسم الله الرحمن الرحيم  **[ " ${x} " ]`)
           .then(m => {
             count++;
           })
@@ -80,6 +88,25 @@ if (message.content === '!spam') {
         }
       }
 });
+
+
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+var prefix = "!";
+
+
+  if (command == "say") {
+if(!message.member.hasPermission('ADMINISTRATOR')) return message.channel.send('?|`**ADMINISTRATOR`ليس لديك صلاحيات**`');
+   message.channel.sendMessage(args.join("  "))
+   message.delete()
+  }
+});
+
+
+
+
+
 
 
 
